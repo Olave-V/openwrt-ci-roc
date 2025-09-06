@@ -1,5 +1,4 @@
-# 修改默认IP & 固件名称
-sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
+# 固件名称
 sed -i "s/hostname='.*'/hostname='OpenWRT'/g" package/base-files/files/bin/config_generate
 
 # 调整NSS驱动q6_region内存区域预留大小（ZN-M2 1GB内存版，对应ipq6018.dtsi）
