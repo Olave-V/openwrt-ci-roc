@@ -10,8 +10,5 @@ jobs:
     IPQ60XX-LibWrt:
       uses: ./.github/workflows/IPQ60XX-LibWrt.yml
 
-    Arthur-Athena-OpenWrt:
-      uses: ./.github/workflows/Athena-OpenWrt.yml
-
     All-Clean:
       uses: ./.github/workflows/All-Clean.yml
